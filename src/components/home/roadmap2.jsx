@@ -8,7 +8,7 @@ export const Roadmap2 = (props) => {
       <div className="container">
         <div className="collection2">
           <h1 className="r-header">MEET OUR DCAPSULE COLLECTION</h1>
-          <p>3000 @ 0.3Ξ AVAILABLE THE 30/04</p>
+          <p>3000 @ 0.1Ξ AVAILABLE THE 30/04</p>
           <iframe
             width="560"
             height="315"
