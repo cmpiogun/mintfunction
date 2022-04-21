@@ -8,7 +8,7 @@ export const Roadmap2 = (props) => {
       <div className="container">
         <div className="collection2">
           <h1 className="r-header">MEET OUR DCAPSULE COLLECTION</h1>
-          <p>3000 @ 0.1Ξ AVAILABLE THE 30/04</p>
+          <p>3000 @ 0.3Ξ AVAILABLE BY 30/04</p>
           <iframe
             width="560"
             height="315"
@@ -37,7 +37,7 @@ export const Roadmap2 = (props) => {
               </div>
               <div className="absolute3">
                 <h3>DCAPSULΞ PRE-LAUNCH</h3>
-                <p style={{ margin: 0 }}>3000 @ 0.1Ξ</p>
+                <p style={{ margin: 0 }}>3000 @ 0.3Ξ</p>
               </div>
             </div>
             <div className="point-4">
@@ -49,8 +49,8 @@ export const Roadmap2 = (props) => {
             <div className="point-5">
               <img src={triangle} alt="triangle"></img>
               <h2>Q3/22</h2>
-              <h3>IRL </h3>
-              <h3 style={{ margin: 0 }}>FORGE</h3>
+              <h3>TO BE </h3>
+              <h3 style={{ margin: 0 }}>CONTINUED</h3>
             </div>
           </div>
         </div>
@@ -130,7 +130,6 @@ export const Roadmap2 = (props) => {
               <h1>TO BUILD</h1>
             </div>
             <div className="roadmap-b-right col-md-6">
-              <p>DCAPLABS X SIVANA</p>
               <p>DCAPLABS X METACADET</p>
             </div>
           </div>
