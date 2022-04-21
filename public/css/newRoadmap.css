@@ -1,0 +1,142 @@
+.collection2 p {
+    font-size: 25px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    font-family: 'KozGoPro-Regular'
+}
+
+.collection2 {
+    margin-bottom: 50px;
+}
+
+.r-header {
+    font-size: 50px;
+}
+
+.piece {
+    border: 5px solid #000;
+    box-shadow: 0px 0px 3px 3px inset #918a95;
+    position: relative;
+    padding-bottom: 33.33333333%;
+}
+
+.selected {
+    box-shadow: 0px 0px 3px 3px inset #fff;
+}
+
+.row {
+    margin: 0;
+}
+
+.tile-roadmap {
+    background: url('../img/images/BAnner-SMOKEPINK2-3300x1700.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 50px 0;
+}
+
+.arrow-icon2 {
+    width: 47px;
+    margin-right: 20px;
+    margin-bottom: 22px;
+}
+
+.content2 {
+    position: relative;
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+.content-box {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.content-box h1 {
+    font-size: 45px;
+    margin-bottom: 17px;
+}
+
+.content-box h4 {
+    font-family: 'KozGoPro-Heavy';
+    letter-spacing: 2px;
+}
+
+.video {
+    width: 50vw;
+    height: 50vw;
+}
+
+@media (max-width: 1200px) {
+    .content-box h1 {
+        font-size: 36px;
+    }
+
+    .content-box h4 {
+        font-size: 16px;
+    }
+
+    .content-box {
+        top: 0;
+        left: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .content-box h4 {
+        font-size: 10px;
+    }
+
+    .content2 {
+        padding-left: 13px;
+    }
+
+    .content2 .arrow-icon-mini {
+        width: 12px;
+        top: -2px;
+    }
+}
+
+@media (max-width: 767px) {
+    .unselected {
+        display: none;
+    }
+
+    .piece {
+        padding-bottom: 45%;
+    }
+
+    .r-header {
+        font-size: 36px;
+    }
+
+    .collection2 p {
+        font-size: 23px;
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 525px) {
+    .piece {
+        padding-bottom: 58%;
+    }
+}
+@media (max-width: 425px) {
+    .piece {
+        padding-bottom: 64%;
+    }
+
+    .btn-custom {
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .piece {
+        padding-bottom: 78%;
+    }
+}

@@ -1,0 +1,254 @@
+.step-title2 h1 {
+    margin: 0;
+    font-family: 'heavy';
+    letter-spacing: 10px;
+}
+
+.collection-item {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.collection-item h2 {
+    margin: auto;
+    letter-spacing: 7px;
+    font-size: 20px;
+}
+
+.step-content h1 {
+    margin: 0;
+    font-family: 'heavy';
+    letter-spacing: 5px;
+}
+
+.btn-collectibles-button {
+    position: relative;
+    color: #0affff;
+    letter-spacing: 1px;
+    margin: 0;
+    font-weight: 500;
+    transition: all 0.5s linear;
+    border: 3px solid #0affff;
+    font-family: 'Heavy';
+    font-size: 22px;
+    padding: 25;
+}
+
+.collectibles-address {
+    color: #05ffff;
+    letter-spacing: 1px;
+    margin: 0;
+    font-weight: 500;
+    transition: all 0.5s linear;
+    border: 3px solid #05ffff;
+    font-family: 'Heavy';
+    font-size: 20px;
+    padding: 25px;
+    background-color: #000000;
+}
+
+.collectibles-address:hover,
+.collectibles-address:focus,
+.collectibles-address.focus,
+.collectibles-address:active,
+.collectibles-address.active {
+    color: #000000;
+    background-image: none;
+    background-color: #05ffff;
+}
+
+.css-1s2u09g-control {
+    background-color: black !important;
+}
+
+.css-1pahdxg-control {
+    background-color: black !important;
+}
+
+.css-qc6sy-singleValue {
+    color: white !important;
+}
+
+#react-select-3-placeholder {
+    color: white !important;
+}
+
+#react-select-3-list-box {
+    background-color: black !important;
+}
+
+.css-2613qy-menu {
+    background-color: black !important;
+}
+
+.step3 h3,
+.step3 p {
+    margin: 0;
+}
+
+:root {
+    --background-gradient: linear-gradient(30deg, #f39c12 30%, #f1c40f);
+    --gray: #34495e;
+    --darkgray: #2c3e50;
+}
+
+select {
+    /* Reset Select */
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    /* Personalize */
+    flex: 1;
+    padding: 0 1em;
+    color: #fff;
+    background-color: var(--darkgray);
+    background-image: none;
+    cursor: pointer;
+}
+
+/* Remove IE arrow */
+select::-ms-expand {
+    display: none;
+}
+
+/* Custom Select wrapper */
+.select {
+    position: relative;
+    display: flex;
+    width: 20%;
+    height: 2.5em;
+    border-radius: .25em;
+    overflow: hidden;
+}
+
+/* Arrow */
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.7em;
+    background-color: #34495e;
+    transition: .25s all ease;
+    pointer-events: none;
+}
+
+/* Transition */
+.select:hover::after {
+    color: #f39c12;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white !important;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+thead>tr>th:first-child {
+    border: none !important;
+}
+
+thead>tr>th:not(:first-child)>div {
+    width: 50px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 75px;
+}
+
+thead>tr>th:first-child {
+    width: 13%;
+}
+
+td div {
+    min-width: 70px;
+}
+
+.table-responsive {
+    position: relative;
+    padding-top: 100px;
+}
+
+.tokenID {
+    transform: none !important;
+    position: relative !important;
+    top: 7px !important;
+    color: red;
+    width: 83px !important;
+}
+
+.tokenImage {
+    width: 83px;
+    margin-top: 7px;
+}
+
+@media (max-width: 1024px) {
+    .btn-collectibles-button {
+        font-size: 18px;
+        padding: 18px;
+    }
+
+    .collection-item h2 {
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 767px) {
+    .step-title {
+        border: none;
+    }
+
+    .step-title2 h1 {
+        font-size: 30px !important;
+    }
+
+    .step-title2 {
+        margin: 40px auto;
+    }
+
+    .collectibles-connect-button {
+        margin: auto;
+    }
+
+    .verify-container {
+        width: 100%;
+    }
+
+    .table {
+        min-width: 800px;
+    }
+}
+
+@media (max-width: 425px) {
+    .step-title {
+        height: 100%;
+        margin: 50px 0;
+    }
+
+    .btn-collectibles-button {
+        width: 85% !important;
+    }
+
+    .collection-item {
+        margin: 0;
+    }
+
+    .select {
+        margin: 15px auto;
+        width: 50%;
+    }
+
+    .step3 h3 {
+        font-size: 20px;
+    }
+}
